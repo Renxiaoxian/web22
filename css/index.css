@@ -1,0 +1,81 @@
+.index-notice {
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0.18rem 0;
+	height: 0.7rem;
+	border-bottom: 1px #e2e2e2 solid;
+	/*px*/
+}
+
+.index-notice-title {
+	float: left;
+	width: 1rem;
+	border-right: 1px #e2e2e2 solid;
+	/*px*/
+	height: 100%;
+	background: url("../img/Notice_icon.png") no-repeat center center;
+	background-size: .6rem auto;
+}
+
+.index-notice-content {
+	float: left;
+	padding-left: 0.18rem;
+	font-size: 0.24rem;
+	color: #333;
+}
+
+.index-floor {
+	position: relative;
+}
+
+.index-floor-list {
+	overflow: hidden;
+	padding-top: 0.25rem;
+	border-bottom: 0.2rem #f6f6f6 solid;
+}
+
+.index-floor-list-title {
+	font-size: 0.36rem;
+	color: #333;
+	text-align: center;
+}
+
+.index-floor-list-title2 {
+	text-align: center;
+	font-size: 0.24rem;
+	color: #9ca4a8;
+	margin-top: 0.1rem;
+}
+
+.index-floor-list-el {
+	display: flex;
+	margin-top: 0.3rem;
+	flex-wrap: wrap;
+}
+
+.index-floor-list-el li {
+	box-sizing: border-box;
+	margin-bottom: 0.3rem;
+	width: 20%;
+	justify-content: flex-start;
+}
+
+.index-floor-list-el li div {
+	overflow: hidden;
+	width: 0.7rem;
+	height: 0.7rem;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.index-floor-list-el li div img {
+	width: 100%;
+	height: 100%;
+}
+
+.index-floor-list-el li p {
+	margin-top: 0.1rem;
+	font-size: 0.24rem;
+	color: #333333;
+	text-align: center;
+}

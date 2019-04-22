@@ -1,0 +1,223 @@
+.details {
+	position: relative;
+	padding-bottom: 1rem;
+}
+
+.details_huibar {
+	width: 100%;
+	overflow: hidden;
+	background-color: #f6f6f6;
+	height: 0.2rem;
+}
+
+.details_tab {
+	width: 100%;
+	overflow: hidden;
+}
+
+.details_tab ul li {
+	width: 50%;
+	float: left;
+	text-align: center;
+	height: 0.86rem;
+	line-height: 0.86rem;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.details_tab ul li p {
+	font-size: 0.3rem;
+	color: #333333;
+	padding-left: 0.45rem;
+	width: 0.90rem;
+	margin: 0 auto;
+}
+
+.details_tab ul .details_tab_active p {
+	color: #d9235c !important;
+}
+
+.details_tab ul li:first-child {
+	border-right: 1px solid #e1e1e1;
+	/*rem*/
+}
+
+.details_tab ul li:first-child p {
+	background: url("../img/duihuan_hui.png") no-repeat left center;
+	background-size: 0.42rem 0.42rem;
+}
+
+.details_tab ul li:first-child.details_tab_active p {
+	background: url("../img/duihuan_active.png") no-repeat left center;
+	background-size: 0.42rem 0.42rem;
+}
+
+.details_tab ul li:last-child p {
+	background: url("../img/hexiao_hui.png") no-repeat left center;
+	background-size: 0.42rem 0.42rem;
+}
+
+.details_tab ul li:last-child.details_tab_active p {
+	background: url("../img/hexiao_active.png") no-repeat left center;
+	background-size: 0.42rem 0.42rem;
+}
+
+.details_jifen_block {
+	margin: 0 0.30rem;
+}
+
+.details_jifen_block .jifen_list {
+	width: 100%;
+	overflow: hidden;
+	padding: 0.44rem 0 0.41rem;
+	border-bottom: 2px dashed #e1e1e1;
+	/*rem*/
+}
+
+.details_jifen_block .jifen_list .jifen_quan {
+	float: left;
+	margin-left: 0.26rem;
+	width: 1.70rem;
+	height: 1.04rem;
+	background: url("../img/quan_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.details_jifen_block .jifen_list .jifen_quan span {
+	font-size: 0.54rem;
+	margin-top: 0.12rem;
+	margin-left: 0.35rem;
+	color: #fff;
+	display: block;
+}
+
+.details_jifen_block .jifen_list .jifen_info {
+	float: left;
+	margin-left: 0.31rem;
+}
+
+.details_jifen_block .jifen_list .jifen_info p {
+	line-height: 1.5em;
+}
+
+.details_jifen_block .jifen_list .jifen_info .jifen_info_01 {
+	color: #333;
+	font-size: 0.32rem;
+}
+
+.details_jifen_block .jifen_list .jifen_info .jifen_info_02 {
+	color: #db1e26;
+	font-size: 0.24rem;
+}
+
+.details_jifen_block .jifen_list .jifen_info .jifen_info_03 {
+	color: #b34a4a;
+	font-size: 0.26rem;
+}
+
+.details_jifen_block .jifen_list .saoma_btn {
+	display: block;
+	float: right;
+	width: 1.31rem;
+	height: 0.62rem;
+	line-height: 0.62rem;
+	background: url("../img/saoma_btn_bg.png") no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+	border: none;
+	margin-top: 0.20rem;
+	margin-right: 0.24rem;
+}
+
+.details_noticep {
+	margin: 0.29rem 0.40rem 0;
+	overflow: hidden;
+}
+
+.details_noticep p {
+	color: #333333;
+	font-size: 0.24rem;
+}
+
+.details_noticep p span {
+	color: #db1e26;
+}
+
+.details_hexiao_form {
+	margin: 0.30rem 0.30rem 0;
+}
+
+.details_hexiao_form .hexiao_form_li {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 0.20rem;
+	width: 6.90rem;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	background-color: #f6f6f6;
+	border-radius: 0.04rem;
+	-moz-border-radius: 0.04rem;
+	-webkit-border-radius: 0.04rem;
+	-o-border-radius: 0.04rem;
+	position: relative;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	padding: 0 0.32rem;
+}
+
+.details_hexiao_form .hexiao_form_li input {
+	border: none;
+	padding-left: 0.55rem;
+	width: auto;
+	height: 100%;
+}
+
+.details_hexiao_form .hexiao_form_li #hexiao_mobile {
+	background: url("../img/mobile_icon.png") left center no-repeat;
+	background-size: 0.35rem 0.35rem;
+}
+
+.details_hexiao_form .hexiao_form_li #hexiao_smscode {
+	background: url("../img/smscode_icon.png") left center no-repeat;
+	background-size: 0.35rem 0.35rem;
+}
+
+.details_hexiao_form .hexiao_form_li #getCode {
+	border: none;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2.00rem;
+	height: 0.40rem;
+	line-height: 0.40rem;
+	color: #bf9e66;
+	font-size: 0.26rem;
+	border-left: 1px solid #e1e1e1;
+	/*rem*/
+	background-color: #f6f6f6;
+	margin-top: 0.29rem;
+	outline: none;
+}
+
+.details_hexiao_form .shangbao_btn {
+	width: 100%;
+	height: 0.98rem;
+	background-color: #384355;
+	border-radius: 0.03rem;
+	-moz-border-radius: 0.03rem;
+	-webkit-border-radius: 0.03rem;
+	-o-border-radius: 0.03rem;
+	border: none;
+	margin-top: 0.11rem;
+	margin-bottom: 0.50rem;
+	color: #bf9e66;
+	font-size: 0.32rem;
+	text-align: center;
+}

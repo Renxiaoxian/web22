@@ -1,0 +1,102 @@
+.Search_input {
+	width: 100%;
+	border-bottom: 1px solid #dddddd;
+	/*rem*/
+	height: 0.96rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 9;
+}
+
+.Search_input input {
+	display: block;
+	width: 5.30rem;
+	margin: 0.15rem auto 0;
+	height: 0.56rem;
+	background-color: #f5f5f5 !important;
+	border-radius: 0.28rem;
+	-moz-border-radius: 0.28rem;
+	-webkit-border-radius: 0.28rem;
+	-o-border-radius: 0.28rem;
+	color: #bbbbbb;
+	font-size: 0.26rem;
+	border: none;
+	text-align: center;
+	background: url("../img/search_icon.png") 1.30rem center no-repeat;
+	background-size: 0.34rem 0.34rem;
+}
+
+.Search_jifen {
+	width: 100%;
+	overflow: scroll;
+	padding-left: 1.80rem;
+	margin-top: 1.67rem;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.Search_jifen .jifen_left {
+	width: 1.80rem;
+	height: 100%;
+	background-color: #f6f6f6;
+	position: fixed;
+	top: 0.97rem;
+	left: 0;
+	overflow: scroll;
+}
+
+.Search_jifen .jifen_left ul li {
+	width: 100%;
+	height: 1.50rem;
+	line-height: 1.50rem;
+	font-size: 0.30rem;
+	color: #9ca4a8;
+	text-align: center;
+	background-color: #f6f6f6;
+}
+
+.Search_jifen .jifen_left ul .jifen_left_active {
+	height: 0.36rem;
+	line-height: 0.36rem;
+	background-color: #ffffff !important;
+	color: #cfa913 !important;
+	padding: 0.32rem 0;
+}
+
+.Search_jifen .jifen_left ul .jifen_left_active p {
+	border-left: 6px solid #ffcc00;
+	/*rem*/
+	width: 100%;
+}
+
+.Search_jifen .jifen_icons {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.jifen_icons_img {
+	width: 25%;
+	float: left;
+}
+
+.Search_jifen .jifen_icons .jifen_icons_img {
+	margin: 0 auto 0.70rem;
+}
+
+.Search_jifen .jifen_icons .jifen_icons_img img {
+	width: 0.70rem;
+	height: 0.70rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.Search_jifen .jifen_icons .jifen_icons_img p {
+	color: #333333;
+	font-size: 0.24rem;
+	text-align: center;
+	margin-top: 0.12rem;
+}
