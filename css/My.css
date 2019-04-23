@@ -1,0 +1,145 @@
+.My_header {
+	width: 100%;
+	background-color: #484b54;
+	overflow: hidden;
+}
+
+.My_header_acount {
+	width: 7rem;
+	margin: 0.27rem auto 0.22rem;
+	background-color: #656b7d;
+	border-radius: 0.1rem;
+	-moz-border-radius: 0.1rem;
+	-webkit-border-radius: 0.1rem;
+	-o-border-radius: 0.1rem;
+	overflow: hidden;
+}
+
+.acount_tit {
+	font-size: 0.28rem;
+	color: #fff;
+	background: url("../img/moren_touxiang.png") left center no-repeat;
+	background-size: 0.35rem 0.35rem;
+	padding-left: 0.57rem;
+	margin: 0.3rem 0.24rem 0;
+	overflow: hidden;
+}
+
+.acount_money {
+	color: #ffffff;
+	font-size: 0.36rem;
+	text-align: center;
+	margin-top: 0.33rem;
+}
+
+.acount_money span {
+	font-size: 0.6rem;
+}
+
+.acount_tixian {
+	margin: 0.35rem 0.25rem 0;
+	border-top: 2px solid #6e7181;
+	/*rem*/
+	padding: 0.17rem 0;
+	overflow: hidden;
+}
+
+.acount_tixian button {
+	display: block;
+	border: none;
+	width: 1.40rem;
+	height: 0.58rem;
+	background-color: #fdfeff;
+	border-radius: 0.1rem;
+	-moz-border-radius: 0.1rem;
+	-webkit-border-radius: 0.1rem;
+	-o-border-radius: 0.1rem;
+	font-size: 0.30rem;
+	color: #333;
+	float: right;
+}
+
+.menu_tab {
+	margin: 0 0.51rem;
+}
+
+.menu_tab ul li {
+	width: 25%;
+	float: left;
+}
+.menu_tab ul li a{
+	display: block;
+}
+
+.menu_tab ul li img {
+	height: 0.52rem;
+	width: auto;
+	margin: 0.22rem auto 0.23rem;
+	display: block;
+}
+
+.menu_tab ul li p {
+	color: #9fa5b5;
+	font-size: 0.26rem;
+	text-align: center;
+	margin-bottom: 0.23rem;
+}
+
+.My_huibar {
+	width: 100%;
+	overflow: hidden;
+	background-color: #f6f6f6;
+	height: 0.20rem;
+}
+
+.My_set_tit {
+	width: 100%;
+	color: #333333;
+	font-size: 0.30rem;
+	border-bottom: 1px solid #e2e2e2;
+	/*rem*/
+	padding: 0.28rem 0.30rem;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.My_set_ul {
+	width: 100%;
+	border-bottom: 1px solid #e2e2e2;
+	/*rem*/
+}
+
+.My_set_ul li {
+	margin: 0 0.32rem;
+	padding: 0.32rem 0 0.32rem 0.63rem;
+	border-bottom: 1px solid #e2e2e2;
+	/*rem*/
+	color: #333333;
+	font-size: 0.28rem;
+}
+
+.My_set_ul li:last-child {
+	border-bottom: none !important;
+}
+
+.team_icon {
+	background: url("../img/team_icon_01.png") left center no-repeat;
+	background-size: 0.42rem 0.42rem;
+	border-bottom: none !important;
+}
+
+.gai_icon {
+	background: url("../img/gai_icon_02.png") left center no-repeat;
+	background-size: 0.42rem 0.42rem;
+}
+
+.exit_icon {
+	background: url("../img/Signout_icon_03.png") left center no-repeat;
+	background-size: 0.42rem 0.42rem;
+}
+
+.My_set_ul_border {
+	border-bottom: none !important;
+}

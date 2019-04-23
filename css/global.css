@@ -66,7 +66,7 @@ input,
 select,
 textarea,
 button {
-	font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", STHeiti, "Microsoft Yahei", "Source Han Sans SC", "Noto Sans CJK SC", "Droid Sans Fallback", sans-serif
+	font-family: "Microsoft Yahei", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", STHeiti, "Source Han Sans SC", "Noto Sans CJK SC", "Droid Sans Fallback", sans-serif
 }
 
 
@@ -2133,4 +2133,11 @@ body {
 .index {
 	position: relative;
 	padding-bottom: 1.4rem;
+}
+input, button{
+	border: none;
+	outline: none;
+}
+button{
+	display: block;
 }

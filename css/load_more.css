@@ -1,0 +1,40 @@
+.hidden {
+	display: none;
+}
+.moreload {
+	/*padding:0 0.2rem;*/
+	width: 100%;
+	height: auto;
+	margin: 0rem auto 0;
+	overflow: hidden;
+}
+
+.moreload ul.list {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.moreload ul.list li {
+	overflow: hidden;
+}
+.moreload ul.list li:last-child .tixian_right{
+	border: none;
+}
+.moreload .more {
+	overflow: hidden;
+	padding: 10px;
+	text-align: center;
+	font-size: 0.26rem;
+	color: #999999;
+	margin: 0.25rem auto 0.4rem;
+}
+
+.moreload .more a {
+	width: 1.79rem;
+	height: .3rem;
+	font-size: .3rem;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+}
